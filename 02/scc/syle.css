@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+.header_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header_info>img{
+    padding: 4vw 0 0 5vw;
+}
+.header_text{
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding-left: 4vw;
+}
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    padding-bottom: 2vw;
+}
+.header_flex>img{
+    max-height: 6vw;
+}
+.menu>ul {
+    list-style: none;
+    padding: 4vw 0 4vw 0;
+    display: flex;
+    justify-content: space-around;
+
+}
+.nav>li>a{
+    text-decoration: none;
+    color: rgb(136, 7, 148);
+    font-weight: 300;
+    font-size: 1rem;
+}
+.nav>li>a:hover{
+    text-decoration-line: overline;
+    color: rgb(50, 12, 236);
+}
+/*----------------------*/
+.body_flex{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.section_text{
+    padding: 0 8vw 0 8vw;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 27%;
+}
+.section_h2{
+    display: flex;
+    justify-content: space-around;
+}
+.aside_text{
+    padding: 3vw 4vw 0 0;
+    max-width: 35%;
+}
+
+.aside_flex_end>ul>li {
+    padding-bottom: 2vw;
+    font-weight: 300;
+    font-size: 1rem;
+    color: rgb(31, 13, 107);
+}
+.section_h2>h2{
+    font-weight: 700;
+    font-size: 1.7rem;
+    letter-spacing: 0.3rem;
+    
+}
+section{
+    padding: 3vw 4vw 3vw 4vw;
+  
+}
+section>p{
+    font-weight: 300;
+    font-size: 1rem;
+}
+section>p>span{
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: rgb(193, 31, 31);
+}
+/*------------------------*/
+footer>p{
+    font-weight: 300;
+    font-size: 1.3rem;
+    padding-left: 4vw;
+}
+footer>p>a{
+    text-decoration: none;
+    color: rgb(136, 7, 148);
+    font-weight: 300;
+    font-size: 1rem;
+}
+footer>p>a:hover{
+    text-decoration-line: overline;
+    color: rgb(50, 12, 236);
+}
+.footer_h2{
+    text-align: center;
+    padding: 2vw;
+}
+.footer_flex{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.clip {
+    padding: 3vw;
+}
+.site {
+   margin-bottom: 3vw;
+}
