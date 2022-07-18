@@ -14,29 +14,29 @@
     <header>
         <nav>
             <div class="nav">
-                <ul class="container_ul">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#about_me">About me</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contacts">Contacts</a></li>
+                <ul class="container_ul small__container">
+                    <li class="nav_href"><a href="#">Home</a></li>
+                    <li class="nav_href"><a href="#about_me">About me</a></li>
+                    <li class="nav_href"><a href="#skills">Skills</a></li>
+                    <li class="nav_href"><a href="#portfolio">Portfolio</a></li>
+                    <li class="nav_href"><a href="#contacts">Contacts</a></li>
                 </ul>
             </div>
         </nav>
-        <div class="__container">
-        <div class="bord"></div>
-        <h1 class="h1">Denis Novik</h1>
-        <div class="img_header">
-            <img src="img/photox940.jpeg" alt="man">
-        </div>
+        <div class="big__container">
+            <div class="bord"></div>
+                <h1 class="h1">Denis Novik</h1>
+                <div class="img_header">
+                    <img src="img/photox940.jpeg" alt="man">
+            </div>
         </div>
     </header>
 <main>
     <article class="color">
-        <div class="container_text __container">
-            <a class="non" name="about_me"><h2 class="h2">About me</h2></a>
+        <div class="small__container">
+            <h2 class="h2 top_100" id="about_me">About me</h2>
             <div class="container_text">
-                <p class="text_About_me">Hi, I'm Denis – UX/UI designer from Minsk.
+                <p class="text_About_me text_top"><span>I'm Denis – UX/UI designer from Minsk.</span>
                     I'm interested in design and everything connected with it.</p>
                 <p class="text_About_me">I'm studying at courses "Web and mobile design 
                     interfaces" in IT-Academy.</p>
@@ -46,12 +46,14 @@
         </div>
     </article>
     <article>
-        <div class="__container">
-            <a class="non" name="skills"><h2 class="h2">Skills</h2></a>
+        <div class="big__container">
+            <h2 id="skills" class="h2 top_100">Skills</h2>
             <p class="skills_text">I work in such programs as</p>
-            <div class="container_skills  container_flex">
+            <div class="big__container  container_flex">
             <div class="skills_flex">
-                <img class="skills_img" src="icons/Ps.png" alt="">
+                <div class="skills_img">
+                <img  src="icons/Ps.png" alt="">
+                </div>
                 <p class="text_skils">Adobe
                     Photoshop</p>
                 <div class="stars_flex">
@@ -63,7 +65,9 @@
                 </div>
             </div>
             <div class="skills_flex">
-                <img class="skills_img" src="icons/Ai.png" alt="">
+                <div  class="skills_img">
+                <img src="icons/Ai.png" alt="">
+                </div>
                 <p class="text_skils">Adobe<br>
                     Illustrator</p>
                 <div class="stars_flex">
@@ -75,7 +79,9 @@
                 </div>
             </div>
             <div class="skills_flex">
-                <img class="skills_img" src="icons/Ae.png" alt="">
+                <div class="skills_img">
+                <img  src="icons/Ae.png" alt="">
+                </div>
                 <p class="text_skils">Adobe
                     After Effects</p>
                 <div class="stars_flex">
@@ -87,9 +93,11 @@
                 </div>
             </div>
             <div class="skills_flex">
-                <img class="skills_figma" src="icons/Figma.png" alt="">
+                <div class="skills_img _figma">
+                <img class="" src="icons/Figma.png" alt="">
+                </div>
                 <p class="text_figma">Figma</p>
-                <div class="stars_flex">
+                <div class="stars_flex_figma">
                     <div class="star"></div>
                     <div class="star"></div>
                     <div class="star"></div>
@@ -100,25 +108,24 @@
         </div>
         </div>
     </article>
-    <a class="non"  name="portfolio"></a>
     <article class="portfolio_color">
-        <h2 class="h2">Portfolio</h2>
-        <div class=" __container">
+        <h2  id="portfolio" class="h2 top_100">Portfolio</h2>
+        <div class=" big__container">
             <img class="portfolio_img" src="img/Fashion-Store.png" alt="">
-            <p class="portfolio_text">Online fashion store - Homepage</p>
+            <p class="portfolio_text"><span>Online fashion store -</span> Homepage</p>
             <img class="portfolio_img" src="img/reebok_web.png" alt="">
             <p class="portfolio_text">Reebok Store - Concept</p>
             <img class="portfolio_img" src="img/braun-landing.png" alt="">
-            <p class="portfolio_text">Braun Landing Page - Concept</p>
+            <p class="portfolio_text bottom_text">Braun Landing Page - Concept</p>
         </div>
     </article>
     <footer>
         
-        <div class="footer_flex __container_footer">
-            <a class="non"  name="contacts"><h2 class="h2">Contacts</h2></a>
+        <div class="footer_flex small__container">
+            <h2 id="contacts" class="h2 top_100">Contacts</h2>
             
-            <p class="futer_text">Want to know more or just chat?</p>
-                <p class="futer_text">You are welcome!</p>
+            <p class="futer_text"><span> to know more or just chat?</span>You are welcome!</p>
+                
                 <div class="btn_footer">
                     <a href="#">Send message</a>
                 </div>
