@@ -126,13 +126,11 @@ ul,li,a{
  }
 /*----------------*/
 .star {
-    background: url(/03/img/star.png) no-repeat center;
     width: 26px;
     height: 26px;
    
 }
 .star_white {
-    background: url(/03/img/star_white.png) no-repeat center;
     width: 26px;
     height: 26px;
 }
